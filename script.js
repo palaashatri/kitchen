@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cakeCatalog = [
         {
             title: 'Golden Mane Sprinkle Dream',
-            description: 'Blue buttercream base with piped lion face topper, yellow mane dollops, multicolored sprinkles and gold sugar balls on a golden board.',
+            description: 'Blue cream base with piped lion face topper, yellow mane dollops, multicolored sprinkles and gold sugar balls on a golden board.',
             category: 'Kids'
         },
 
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: 'Enchanted Rose Garden',
-            description: 'Smooth white buttercream with piped red roses, gold beads and a central happy birthday plaque.',
+            description: 'Smooth white cream with piped red roses, gold beads and a central happy birthday plaque.',
             category: 'Birthday'
         },
         {
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: 'Petals in Flight',
-            description: 'Pink-to-white gradient buttercream with piped flowers, chocolate shards and a butterfly happy birthday topper.',
+            description: 'Pink-to-white gradient cream with piped flowers, chocolate shards and a butterfly happy birthday topper.',
             category: 'Birthday'
         },
         {
@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: 'Blooming Coral Paradise',
-            description: 'Single-tier cake covered in coral, lavender and white buttercream flowers with gold accents and edible pearls.',
+            description: 'Single-tier cake covered in coral, lavender and white cream flowers with gold accents and edible pearls.',
             category: 'Designer'
         },
         {
@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: 'Pearl Swirl Magic',
-            description: 'Blue-purple swirled buttercream with pearl accents, Birthday Girl topper and name styling.',
+            description: 'Blue-purple swirled cream with pearl accents, Birthday Girl topper and name styling.',
             category: 'Birthday'
         },
         {
@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title: 'Golden Half-Century Wings',
-            description: 'Light blue anniversary cake with piped swirls, butterfly accents and a prominent 50 topper.',
+            description: 'Pastel-greenanniversary cake with piped swirls, butterfly accents and a prominent 50 topper.',
             category: 'Anniversary'
         },
         {
@@ -401,7 +401,6 @@ document.addEventListener('DOMContentLoaded', () => {
         postcardTitle.textContent = title;
         postcardDescription.textContent = description;
         postcardCategory.textContent = category;
-        postcardFile.textContent = `File: ${fileName}`;
         modal.classList.add('open');
         modal.setAttribute('aria-hidden', 'false');
         document.body.style.overflow = 'hidden';

@@ -627,11 +627,23 @@ footer {
 
 @media (max-width: 768px) {
     .nav-links {
-        display: none;
+        display: flex;
+        gap: 14px;
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+    }
+
+    .nav-links a {
+        font-size: 0.93rem;
+    }
+
+    .nav-content {
+        padding: 0 12px;
+        gap: 10px;
     }
 
     .logo {
-        font-size: 1.1rem;
+        font-size: 0.98rem;
     }
 
     .brand-mark {
@@ -692,5 +704,19 @@ footer {
 
     .contact-form-wrap iframe {
         min-height: 560px;
+    }
+}
+
+@media (max-width: 420px) {
+    .logo {
+        display: none;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 0.88rem;
     }
 }

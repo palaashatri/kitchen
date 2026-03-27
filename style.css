@@ -184,7 +184,7 @@ body {
     font-weight: 700;
     font-size: 23px;
     font-style: italic;
-    color: var(--brand-navy);
+    color: var(--accent);
 }
 
 .nav-links {

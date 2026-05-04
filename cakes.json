@@ -310,5 +310,59 @@
     "description": "Show your sister some love with this specially designed tribute cake.",
     "category": "Specialty",
     "fileName": "worlds-best-sister-cake.jpg"
+  },
+  {
+    "title": "Classic Oreo Chocolate Bowl",
+    "description": "Indulge in a rich chocolate base topped with creamy frosting, a whole Oreo cookie, and elegant silver pearls.",
+    "category": "Cake Bowls",
+    "fileName": "classic-oreo-chocolate-cake-bowl.jpg"
+  },
+  {
+    "title": "Strawberry Dream Bowl",
+    "description": "A delightful pink-frosted treat featuring light, airy sponge and shimmering silver pearls for a touch of magic.",
+    "category": "Cake Bowls",
+    "fileName": "strawberry-dream-pink-cake-bowl.jpg"
+  },
+  {
+    "title": "Oreo Swirl & Chips Bowl",
+    "description": "A playful mix of pink and chocolate frosting swirls, chocolate chips, and Oreo cookies for the ultimate crunch.",
+    "category": "Cake Bowls",
+    "fileName": "oreo-swirl-chocolate-chip-cake-bowl.jpg"
+  },
+  {
+    "title": "Romantic Red Velvet Bowl",
+    "description": "Velvety red sponge layered with smooth cream frosting and adorable red heart-shaped sprinkles.",
+    "category": "Cake Bowls",
+    "fileName": "romantic-red-velvet-heart-cake-bowl.jpg"
+  },
+  {
+    "title": "Velvety Red Velvet Bowl",
+    "description": "Celebrate love with this beautifully layered red velvet bowl topped with creamy swirls and golden accents.",
+    "category": "Cake Bowls",
+    "fileName": "velvety-red-velvet-cream-cake-bowl.jpg"
+  },
+  {
+    "title": "Fresh Fruit Rainbow Bowl",
+    "description": "A refreshing blend of juicy grapes, pomegranate seeds, and vibrant sprinkles over a light cream base.",
+    "category": "Cake Bowls",
+    "fileName": "fresh-fruit-rainbow-cake-bowl.jpg"
+  },
+  {
+    "title": "Tropical Pineapple Gold Bowl",
+    "description": "A sunny tropical delight featuring a bright yellow glaze, golden pearls, and festive rainbow sprinkles.",
+    "category": "Cake Bowls",
+    "fileName": "pineapple-mango-gold-pearl-cake-bowl.jpg"
+  },
+  {
+    "title": "Double Chocolate Oreo Overload",
+    "description": "A dark chocolate lover's paradise topped with multiple Oreo pieces and a rich, glossy ganache.",
+    "category": "Cake Bowls",
+    "fileName": "double-chocolate-oreo-overload-cake-bowl.jpg"
+  },
+  {
+    "title": "Lotus Biscoff Caramel Bowl",
+    "description": "Experience the irresistible crunch of Lotus biscuits and Biscoff crumbs paired with smooth caramel layers.",
+    "category": "Cake Bowls",
+    "fileName": "lotus-biscoff-caramel-cake-bowl.jpg"
   }
 ]

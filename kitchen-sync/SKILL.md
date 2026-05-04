@@ -17,8 +17,11 @@ For each new image:
 - **Metadata:** Generate a JSON object with:
     - `title`: Catchy name.
     - `description`: Appetizing 1-sentence blurb.
-    - `category`: One of [Birthday, Anniversary, Festive, Specialty].
+    - `category`: One of [Birthday, Anniversary, Festive, Specialty, Cake Bowls].
     - `fileName`: The new filename.
+
+### 2.5 Cake Bowls Identification
+"Cake Bowls" are typically served in transparent, circular or square plastic containers. They often feature visible layers of sponge, cream, and toppings. Identify these and categorize them as "Cake Bowls".
 
 ## 3. Database Update
 - Append the new metadata objects to `cakes.json`.

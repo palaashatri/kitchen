@@ -84,7 +84,16 @@ document.addEventListener('DOMContentLoaded', () => {
         "valentines-day-rose-pot-cake.jpg",
         "white-ribbon-heart-cake.jpg",
         "white-swirl-rose-anniversary-cake.jpg",
-        "worlds-best-sister-cake.jpg"
+        "worlds-best-sister-cake.jpg",
+        "classic-oreo-chocolate-cake-bowl.jpg",
+        "strawberry-dream-pink-cake-bowl.jpg",
+        "oreo-swirl-chocolate-chip-cake-bowl.jpg",
+        "romantic-red-velvet-heart-cake-bowl.jpg",
+        "velvety-red-velvet-cream-cake-bowl.jpg",
+        "fresh-fruit-rainbow-cake-bowl.jpg",
+        "pineapple-mango-gold-pearl-cake-bowl.jpg",
+        "double-chocolate-oreo-overload-cake-bowl.jpg",
+        "lotus-biscoff-caramel-cake-bowl.jpg"
     ];
 
     const cakeCatalog = [
@@ -144,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             "title": "Classic Chocolate Truffle",
-            "description": "Deep, dark, and utterly divine—the gold standard for chocolate lovers.",
+            "description": "Deep, dark, and utterly divine\u00e2\u20ac\u201dthe gold standard for chocolate lovers.",
             "category": "Specialty",
             "fileName": "classic-chocolate-truffle-cake.jpg"
         },
@@ -359,46 +368,100 @@ document.addEventListener('DOMContentLoaded', () => {
             "fileName": "romantic-love-you-bunting-cake.jpg"
         },
         {
-            "title": "Deep Love Red Rose Cake",
-            "description": "A bouquet of edible red roses to celebrate a deep and lasting love.",
-            "category": "Anniversary",
-            "fileName": "romantic-red-rose-love-cake.jpg"
+                "title": "Deep Love Red Rose Cake",
+                "description": "A bouquet of edible red roses to celebrate a deep and lasting love.",
+                "category": "Anniversary",
+                "fileName": "romantic-red-rose-love-cake.jpg"
         },
         {
-            "title": "Funky Teal Character Cake",
-            "description": "A bold and bright teal-faced cake for a fun-filled celebration.",
-            "category": "Specialty",
-            "fileName": "teal-face-character-cake.jpg"
+                "title": "Funky Teal Character Cake",
+                "description": "A bold and bright teal-faced cake for a fun-filled celebration.",
+                "category": "Specialty",
+                "fileName": "teal-face-character-cake.jpg"
         },
         {
-            "title": "Best Husband Tic-Tac-Toe",
-            "description": "A playful and sweet game-themed cake for the world's best husband.",
-            "category": "Anniversary",
-            "fileName": "tic-tac-toe-best-husband-cake.jpg"
+                "title": "Best Husband Tic-Tac-Toe",
+                "description": "A playful and sweet game-themed cake for the world's best husband.",
+                "category": "Anniversary",
+                "fileName": "tic-tac-toe-best-husband-cake.jpg"
         },
         {
-            "title": "Valentine's Rose Pot Delight",
-            "description": "A unique cake shaped like a flower pot, overflowing with red roses.",
-            "category": "Festive",
-            "fileName": "valentines-day-rose-pot-cake.jpg"
+                "title": "Valentine's Rose Pot Delight",
+                "description": "A unique cake shaped like a flower pot, overflowing with red roses.",
+                "category": "Festive",
+                "fileName": "valentines-day-rose-pot-cake.jpg"
         },
         {
-            "title": "Pure Love White Ribbon Heart",
-            "description": "An elegant white heart cake finished with a delicate ribbon detail.",
-            "category": "Anniversary",
-            "fileName": "white-ribbon-heart-cake.jpg"
+                "title": "Pure Love White Ribbon Heart",
+                "description": "An elegant white heart cake finished with a delicate ribbon detail.",
+                "category": "Anniversary",
+                "fileName": "white-ribbon-heart-cake.jpg"
         },
         {
-            "title": "Pristine Swirl Rose Anniversary",
-            "description": "Celebrate another year together with this classic white rose cake.",
-            "category": "Anniversary",
-            "fileName": "white-swirl-rose-anniversary-cake.jpg"
+                "title": "Pristine Swirl Rose Anniversary",
+                "description": "Celebrate another year together with this classic white rose cake.",
+                "category": "Anniversary",
+                "fileName": "white-swirl-rose-anniversary-cake.jpg"
         },
         {
-            "title": "World's Best Sister Cake",
-            "description": "Show your sister some love with this specially designed tribute cake.",
-            "category": "Specialty",
-            "fileName": "worlds-best-sister-cake.jpg"
+                "title": "World's Best Sister Cake",
+                "description": "Show your sister some love with this specially designed tribute cake.",
+                "category": "Specialty",
+                "fileName": "worlds-best-sister-cake.jpg"
+        },
+        {
+                "title": "Classic Oreo Chocolate Bowl",
+                "description": "Indulge in a rich chocolate base topped with creamy frosting, a whole Oreo cookie, and elegant silver pearls.",
+                "category": "Cake Bowls",
+                "fileName": "classic-oreo-chocolate-cake-bowl.jpg"
+        },
+        {
+                "title": "Strawberry Dream Bowl",
+                "description": "A delightful pink-frosted treat featuring light, airy sponge and shimmering silver pearls for a touch of magic.",
+                "category": "Cake Bowls",
+                "fileName": "strawberry-dream-pink-cake-bowl.jpg"
+        },
+        {
+                "title": "Oreo Swirl & Chips Bowl",
+                "description": "A playful mix of pink and chocolate frosting swirls, chocolate chips, and Oreo cookies for the ultimate crunch.",
+                "category": "Cake Bowls",
+                "fileName": "oreo-swirl-chocolate-chip-cake-bowl.jpg"
+        },
+        {
+                "title": "Romantic Red Velvet Bowl",
+                "description": "Velvety red sponge layered with smooth cream frosting and adorable red heart-shaped sprinkles.",
+                "category": "Cake Bowls",
+                "fileName": "romantic-red-velvet-heart-cake-bowl.jpg"
+        },
+        {
+                "title": "Velvety Red Velvet Bowl",
+                "description": "Celebrate love with this beautifully layered red velvet bowl topped with creamy swirls and golden accents.",
+                "category": "Cake Bowls",
+                "fileName": "velvety-red-velvet-cream-cake-bowl.jpg"
+        },
+        {
+                "title": "Fresh Fruit Rainbow Bowl",
+                "description": "A refreshing blend of juicy grapes, pomegranate seeds, and vibrant sprinkles over a light cream base.",
+                "category": "Cake Bowls",
+                "fileName": "fresh-fruit-rainbow-cake-bowl.jpg"
+        },
+        {
+                "title": "Tropical Pineapple Gold Bowl",
+                "description": "A sunny tropical delight featuring a bright yellow glaze, golden pearls, and festive rainbow sprinkles.",
+                "category": "Cake Bowls",
+                "fileName": "pineapple-mango-gold-pearl-cake-bowl.jpg"
+        },
+        {
+                "title": "Double Chocolate Oreo Overload",
+                "description": "A dark chocolate lover's paradise topped with multiple Oreo pieces and a rich, glossy ganache.",
+                "category": "Cake Bowls",
+                "fileName": "double-chocolate-oreo-overload-cake-bowl.jpg"
+        },
+        {
+                "title": "Lotus Biscoff Caramel Bowl",
+                "description": "Experience the irresistible crunch of Lotus biscuits and Biscoff crumbs paired with smooth caramel layers.",
+                "category": "Cake Bowls",
+                "fileName": "lotus-biscoff-caramel-cake-bowl.jpg"
         }
     ];
 
@@ -454,7 +517,16 @@ document.addEventListener('DOMContentLoaded', () => {
         "valentines-day-rose-pot-cake.jpg": "Valentine's Rose Pot Delight",
         "white-ribbon-heart-cake.jpg": "Pure Love White Ribbon Heart",
         "white-swirl-rose-anniversary-cake.jpg": "Pristine Swirl Rose Anniversary",
-        "worlds-best-sister-cake.jpg": "World's Best Sister Cake"
+        "worlds-best-sister-cake.jpg": "World's Best Sister Cake",
+        "classic-oreo-chocolate-cake-bowl.jpg": "Classic Oreo Chocolate Bowl",
+        "strawberry-dream-pink-cake-bowl.jpg": "Strawberry Dream Bowl",
+        "oreo-swirl-chocolate-chip-cake-bowl.jpg": "Oreo Swirl & Chips Bowl",
+        "romantic-red-velvet-heart-cake-bowl.jpg": "Romantic Red Velvet Bowl",
+        "velvety-red-velvet-cream-cake-bowl.jpg": "Velvety Red Velvet Bowl",
+        "fresh-fruit-rainbow-cake-bowl.jpg": "Fresh Fruit Rainbow Bowl",
+        "pineapple-mango-gold-pearl-cake-bowl.jpg": "Tropical Pineapple Gold Bowl",
+        "double-chocolate-oreo-overload-cake-bowl.jpg": "Double Chocolate Oreo Overload",
+        "lotus-biscoff-caramel-cake-bowl.jpg": "Lotus Biscoff Caramel Bowl"
     };
 
     const cakeCatalogByTitle = Object.fromEntries(
